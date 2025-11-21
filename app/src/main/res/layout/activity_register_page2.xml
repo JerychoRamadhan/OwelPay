@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Masukkan Nomor"
-        android:textSize="22sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/logo"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,8 +34,8 @@
     <!-- EditText Nomor HP -->
     <EditText
         android:id="@+id/input_number"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
         android:hint="Masukkan nomor Hp"
         android:padding="14dp"
         android:background="@drawable/edittext_border"
@@ -43,13 +43,13 @@
         app:layout_constraintTop_toBottomOf="@id/title_register"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="80dp" />
 
     <!-- Tombol Daftar -->
     <Button
         android:id="@+id/btn_daftar"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_width="246dp"
+        android:layout_height="48dp"
         android:text="Daftar"
         android:textStyle="bold"
         android:backgroundTint="#FFB4D9"

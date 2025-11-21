@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="birulangit">#96E7FF</color>
     <color name="pinkowel">#FFACCE</color>
+    <color name="darker_gray">#636363</color>
 </resources>
